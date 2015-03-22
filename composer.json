@@ -19,14 +19,13 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "friendsofsymfony/rest-bundle":                 "~1.5.0@RC",
+        "friendsofsymfony/rest-bundle":                 "~1.5",
         "knplabs/knp-menu-bundle":                      "~1.1",
-        "sonata-project/admin-bundle":                  "2.3",
-        "sonata-project/doctrine-orm-admin-bundle":     "2.3.0",
+        "sonata-project/admin-bundle":                  "~2.3",
+        "sonata-project/doctrine-orm-admin-bundle":     "~2.3",
         "sonata-project/easy-extends-bundle":           "~2.1",
         "sonata-project/user-bundle":                   "~2.2",
-        "sylius/resource-bundle":                       "~0.12",
-        "sylius/resource":                              "~0.12"
+        "sylius/resource-bundle":                       "0.12.*"
     },
     "require-dev": {
         "sensio/generator-bundle":              "~2.4",
@@ -37,7 +36,7 @@
         "behat/mink-selenium2-driver":          "~1.2",
         "behat/mink":                           "~1.6",
         "doctrine/doctrine-fixtures-bundle":    "~2.2",
-        "elao/web-profiler-extra-bundle":       "~2.3@dev",
+        "elao/web-profiler-extra-bundle":       "~2.3",
         "h4cc/alice-fixtures-bundle":           "~0.4",
         "phpunit/phpunit":                      "~3.7"
     },
