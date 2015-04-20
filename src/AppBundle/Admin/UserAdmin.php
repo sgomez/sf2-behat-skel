@@ -6,16 +6,6 @@ use Sonata\UserBundle\Admin\Entity\UserAdmin as BaseUserAdmin;
 
 class UserAdmin extends BaseUserAdmin
 {
-	/**
-	 * {@inheritdoc}
-	 */
-	protected $baseRouteName = "lanzadera_user";
-
-	/**
-	 * {@inheritdoc}
-	 */
-	protected $baseRoutePattern = 'lanzadera/user';
-
     /**
      * {@inheritdoc}
      */

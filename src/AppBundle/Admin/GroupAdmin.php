@@ -14,13 +14,4 @@ use Sonata\UserBundle\Admin\Entity\GroupAdmin as BaseGroupAdmin;
 
 class GroupAdmin extends BaseGroupAdmin
 {
-	/**
-	 * {@inheritdoc}
-	 */
-	protected $baseRouteName = "lanzadera_group";
-
-	/**
-	 * {@inheritdoc}
-	 */
-	protected $baseRoutePattern = 'lanzadera/group';
 }
